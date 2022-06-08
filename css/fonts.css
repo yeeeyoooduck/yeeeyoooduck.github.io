@@ -1,0 +1,71 @@
+/* NoirPro */
+@font-face {
+    font-family: "NoirPro";
+    src: url("/fonts/NoirPro-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "NoirPro";
+    src: url("/fonts/NoirPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "NoirPro";
+    src: url("/fonts/NoirPro-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "NoirPro";
+    src: url("/fonts/NoirPro-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Commissioner */
+@font-face {
+    font-family: "Commissioner";
+    src: url("/fonts/Commissioner-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Commissioner";
+    src: url("/fonts/Commissioner-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Commissioner";
+    src: url("/fonts/Commissioner-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Commissioner";
+    src: url("/fonts/Commissioner-Thin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* raleway-regular - cyrillic */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v26-cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v26-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v26-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v26-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v26-cyrillic-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
