@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQnix. Главная страница</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+    <link rel="manifest" href="img/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mainpage.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="/js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-formhelpers.css">
+    <link rel="stylesheet" href="css/bootstrap-formhelpers.min.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero__content containerLayout">
+            <div class="hero__content-left"> </div>
+
+            <div class="hero__content-right">
+                <header class="hero__content-right-header">
+                    <ul class="hero__content-right-header-list list-reset">
+                        <a href="#anchorProducts"><li class="hero__content-right-header-list-item">Продукты</li></a>
+                        <a href="#anchorServices"><li class="hero__content-right-header-list-item">Услуги</li></a>
+                        <a href="#anchorContacts"><li class="hero__content-right-header-list-item">Контакты</li></a>
+                    </ul>
+                </header>
+    
+                <p data-wow-delay="0.2s" class="hero__content-right-description wow animate__animated animate__fadeInUp">новый разработчик программного обеспечения на&nbsp;Российском и&nbsp;международном рынке.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="containerSmall">
+            <div data-wow-offset="100" class="wow animate__animated animate__fadeIn">
+                <p id="anchorProducts" class="products__title"><span id="colortext">Наши</span> продукты</p>
+            </div>
+        </div>
+        <div data-wow-offset="100" class="containerProducts wow animate__animated animate__fadeIn owl-carousel">
+            <div class="products__window">
+                <p class="products__window-title">Цифровая образовательная платформа: Модуль &laquo;Журнал&raquo;</p>
+                <a href="productpageJournal.html"><button class="products__window-button">Узнать больше</button></a>
+            </div>
+            <div class="products__window">
+                <p class="products__window-title">Цифровая образовательная платформа: Модуль &laquo;Инвентаризация&raquo;</p>
+                <a><button class="products__window-button" id="unavailable">В разработке</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="containerSmall">
+            <div data-wow-offset="100" class="wow animate__animated animate__fadeIn">
+                <p id="anchorServices" class="services__title"><span id="colortext">Наши</span> услуги</p>
+            </div>
+        </div>
+        <div class="container"> 
+            <div data-wow-offset="100" class="services__cards wow animate__animated animate__fadeIn owl-carouselTwo">
+                <div class="services__cards-card">
+                    <div class="services__cards-card-content">
+                        <div class="services__cards-card-content-name">
+                            <p class="services__cards-card-content-name-subtitle">Название</p>
+                            <p class="services__cards-card-content-name-title">Разработка Web-приложений</p>
+                        </div>
+                        <div class="services__cards-card-content-description">
+                            <p class="services__cards-card-content-name-subtitle">Описание</p>
+                            <p class="services__cards-card-content-name-title">Многопользовательская система c&nbsp;web-интерфейсом для ...</p> 
+                        </div>
+                    </div>
+                    <div class="services__cards-card-buttons">
+                        <a><button class="services__cards-card-buttons-detail" Id="open_popup">Подробнее</button></a>
+                        <a href="#anchorContacts"><button class="services__cards-card-buttons-contact">Связаться</button></a>
+                    </div>
+                </div>
+                <div class="services__cards-card">
+                    <div class="services__cards-card-content">
+                        <div class="services__cards-card-content-name">
+                            <p class="services__cards-card-content-name-subtitle">Название</p>
+                            <p class="services__cards-card-content-name-title">Разработка сайта под ключ</p>
+                        </div>
+                        <div class="services__cards-card-content-description">
+                            <p class="services__cards-card-content-name-subtitle">Описание</p>
+                            <p class="services__cards-card-content-name-title">Веб-ресурс с&nbsp;нуля, начиная от&nbsp;дизайна заканчивая вёрсткой ...</p> 
+                        </div>
+                    </div>
+                    <div class="services__cards-card-buttons">
+                        <a><button class="services__cards-card-buttons-detail">Подробнее</button></a>
+                        <a href="#anchorContacts"><button class="services__cards-card-buttons-contact">Связаться</button></a>
+                    </div>
+                </div>
+                <div class="services__cards-card">
+                    <div class="services__cards-card-content">
+                        <div class="services__cards-card-content-name">
+                            <p class="services__cards-card-content-name-subtitle">Название</p>
+                            <p class="services__cards-card-content-name-title">Издательство ПО</p>
+                        </div>
+                        <div class="services__cards-card-content-description">
+                            <p class="services__cards-card-content-name-subtitle">Описание</p>
+                            <p class="services__cards-card-content-name-title">Лицензирование и&nbsp;издательство программного обеспечения ...</p> 
+                        </div>
+                    </div>
+                    <div class="services__cards-card-buttons">
+                        <a><button class="services__cards-card-buttons-detail open-popup">Подробнее</button></a>
+                        <a href="#anchorContacts"><button class="services__cards-card-buttons-contact">Связаться</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="popup">
+        <div class="popup__content">
+            <img class="close-popup" src="img/close-popup.png" alt="icon">
+            <p>text</p>
+        </div>
+    </div>
+
+    <section class="contacts">
+        <div class="containerSmall wow animate__animated animate__fadeIn">
+            <p id="anchorContacts" class="contacts__title"><span id="colortext">Наши</span> контакты</p>
+        </div>
+        <div class="containerContactsFlex wow animate__animated animate__fadeIn">
+            <div class="contacts__sides">
+                <div class="contacts__sides-left">
+                    <div class="contacts__sides-left-content">
+                        <p class="contacts__sides-left-content-title">получить предложение</p>
+                        <div class="contacts__sides-left-content-inputs">
+                            <input type="text" placeholder="ваше имя" class="contacts__sides-left-content-inputs-input">
+                            <input type="text" placeholder="ваш email" class="contacts__sides-left-content-inputs-input">
+                            <form><input type="text" class="contacts__sides-left-content-inputs-input form-control bfh-phone" placeholder="+ 7 (999) 999-99-99" data-format="+7 (ddd) ddd-dddd" id="number"></form>
+                        </div>
+                        <button class="contacts__sides-left-content-submit">Заказать звонок</button>
+                    </div>
+                </div>
+
+                <div class="contacts__sides-right">
+                    <div class="contacts__sides-right-content">
+                        <div class="contacts__sides-right-content-phone">
+                            <p class="contacts__sides-right-content-subtitle">ТЕЛЕФОН</p>
+                            <p class="contacts__sides-right-content-title">+7 (926) 425 51-99</p>
+                        </div>
+                        <div class="contacts__sides-right-content-email">
+                            <p class="contacts__sides-right-content-subtitle">EMAIL</p>
+                            <p class="contacts__sides-right-content-title">ask@iqnix.tech</p>
+                        </div>
+                        <div class="contacts__sides-right-content-supportemail">
+                            <p class="contacts__sides-right-content-subtitle">SUPPORT EMAIL</p>
+                            <p class="contacts__sides-right-content-title">ask@iqnix.tech</p>
+                        </div>
+                        <div class="contacts__sides-right-content-adress">
+                            <p class="contacts__sides-right-content-subtitle">АДРЕС ПРИЁМНОЙ</p>
+                            <p class="contacts__sides-right-content-title">142100, Московская область, г.о. Подольск, ул. Рощинская, д.&nbsp;22, 2&nbsp;этаж, кабинет 202</p>
+                        </div>
+                    </div>
+                    <div class="contacts__sides-right-gradient"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__content-flex">
+                    <div class="footer__content-left">
+                        <div class="footer__content-left-top">
+                            <div class="footer__content-left-top-left">
+                                <p class="footer__content-left-top-left-title">Документация компании</p>
+                                <ul class="footer__content-left-top-left-list list-reset">
+                                    <a href="/documents/Аккредитация АО-20220328-3931719851-3.pdf"><li class="footer__content-left-top-left-list-item">Аккредитация IT&nbsp;компании</li></a>
+                                    <a href="https://digital.gov.ru/ru/activity/govservices/1/"><li class="footer__content-left-top-left-list-item">Мы&nbsp;в&nbsp;реестре аккредитованных&nbsp;IT компаний&nbsp;РФ</li></a>
+                                    <a href=""><li class="footer__content-left-top-left-list-item">Наши реквизиты</li></a>
+                                </ul>
+                            </div>
+                            <div class="footer__content-left-top-right">
+                                <p class="footer__content-left-top-left-title">Документация по&nbsp;продуктам</p>
+                                <ul class="footer__content-left-top-left-list list-reset">
+                                    <a href="productpageJournal.html"><li class="footer__content-left-top-left-list-item">ЦОП: Модуль &laquo;Журнал&raquo;</li></a>
+                                    <a href=""><li class="footer__content-left-top-left-list-item">ЦОП: Модуль &laquo;Инвентаризация&raquo;</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="footer__content-right">
+                        <div class="footer__content-right-left">
+                            <div class="footer__content-right-telephone">
+                                <p class="footer__content-right-title">ТЕЛЕФОН</p>
+                                <p class="footer__content-right-subtitle">+7 (926) 425 51-99</p>
+                            </div>
+                            <div class="footer__content-right-email">
+                                <p class="footer__content-right-title">EMAIL</p>
+                                <p class="footer__content-right-subtitle">ask@iqnix.tech</p>
+                            </div>
+                        </div>
+                        <div class="footer__content-right-right">
+                            <div class="footer__content-right-inn">
+                                <p class="footer__content-right-title">ИНН</p>
+                                <p class="footer__content-right-subtitle">5074074077</p>
+                            </div>
+                            <div class="footer__content-right-ogrn">
+                                <p class="footer__content-right-title">ОГРН</p>
+                                <p class="footer__content-right-subtitle">1225000027218</p>
+                            </div>
+                        </div>
+                        <div class="footer__content-right-adress">
+                            <p class="footer__content-right-title">Юридический адрес</p>
+                            <p class="footer__content-right-subtitle">142113, Московская область, г.о. Подольск, пос. Молодежный, д. 1, кв. 13</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer__content-left-bottom">&copy;&nbsp;ООО &laquo;Айкьюникс Тек&raquo;</p>
+                
+        </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-formhelpers.js"></script>
+    <script src="js/bootstrap-formhelpers.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scriptCarousel.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>
